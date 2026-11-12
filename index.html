@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA ARCHITECTS — Me'morchilik va Shaharsozlik Studiyasi</title>
+  <meta name="description" content="Xalqaro darajadagi me'morchilik, fazoviy rejalashtirish va barqaror shaharsozlik studiyasi — NOVA Architects (34-Amaliy Ish).">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="figma_preview.png">
+</head>
+<body>
+
+  <!-- SAYT SARLAVHASI (HEADER) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="NOVA Architects Bosh Sahifasi">
+        <div class="logo-icon">N</div>
+        <span>NOVA</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Asosiy menyu">
+        <a href="#hero" class="nav-link active">Bosh sahifa</a>
+        <a href="#philosophy" class="nav-link">Falsafa</a>
+        <a href="#projects" class="nav-link">Loyihalar</a>
+        <a href="#highlights" class="nav-link">Yutuqlar</a>
+        <a href="#awards" class="nav-link">Mukofotlar</a>
+        <a href="#office" class="nav-link">Ofisimiz</a>
+        <a href="#contact" class="nav-link">Aloqa</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle" aria-label="Rejimni o'zgartirish">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="#contact" class="btn-cta">Loyihani boshlash</a>
+        <button id="mobileMenuToggle" class="menu-toggle" aria-label="Mobil menyu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO BO'LIMI -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-header">
+          <h1 class="hero-title">
+            NOVA<br>
+            <span>ARCHITECTS</span>
+          </h1>
+          <p class="hero-meta">
+            Biz shahar landshaftini o'zgartiruvchi monumental, kam uglerodli va inson qalbini ilhomlantiruvchi me'moriy durdonalarni loyihalashtiramiz.
+          </p>
+        </div>
+
+        <div class="hero-banner">
+          <img src="assets/hero-tower.jpg" alt="NOVA zamonaviy minorasi me'moriy loyihasi" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- FALSAFA BO'LIMI: LESS IS MORE -->
+    <section id="philosophy" class="philosophy-section">
+      <div class="container">
+        <span class="section-label">// Me'moriy Qarash</span>
+        <h2 class="section-heading">NOVA'DA KAMROQ — BU KO'PROQDIR</h2>
+        
+        <div class="philosophy-grid">
+          <div class="philosophy-media">
+            <img src="assets/greenhouse.jpg" alt="Shaffof bioklimatik me'moriy gumbaz">
+          </div>
+          <div class="philosophy-content">
+            <p class="philosophy-quote">
+              "Arxitektura shunchaki devor va tomlar yig'indisi emas — u insoniyat tabiat bilan uyg'unlashadigan jonli makondir."
+            </p>
+            <p class="philosophy-desc">
+              Har bir loyihamizda biz xomashyolarning tabiiy go'zalligini saqlab qolgan holda, ilg'or fazoviy muhandislik texnologiyalarini birlashtiramiz. Beton, shisha va yashil flora o'rtasidagi mukammal muvozanat NOVA arxitekturasining tamal toshidir.
+            </p>
+            <a href="#projects" class="round-action-btn" aria-label="Loyihalarga o'tish">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOYIHALAR VITRINASI (NOVA PROJECTS) -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-top">
+          <div>
+            <span class="section-label">// Saralangan Ishlar</span>
+            <h2 class="section-heading">NOVA LOYIHALARI</h2>
+          </div>
+          <div class="slider-controls">
+            <button id="projectPrevBtn" class="slider-arrow" aria-label="Oldingi loyiha">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button id="projectNextBtn" class="slider-arrow" aria-label="Keyingi loyiha">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="project-card-featured">
+          <div class="project-info">
+            <div>
+              <span id="projectTag" class="project-tag">Turar-joy & Minoralar // 2026</span>
+              <h3 id="projectTitle" class="project-title">Nova Aurora Tower</h3>
+              <p id="projectDesc" class="philosophy-desc">
+                Tokio markazida 64 qavatli, tebranishlarga qarshi gipoid parametrik fasadli va vertikal bog'larga ega ekologik osmono'par bino.
+              </p>
+            </div>
+
+            <ul class="project-meta-list">
+              <li class="meta-item">
+                <span>Joylashuvi</span>
+                <strong id="projectLocation">Tokio, Yaponiya</strong>
+              </li>
+              <li class="meta-item">
+                <span>Umumiy Maydon</span>
+                <strong id="projectArea">85,000 m²</strong>
+              </li>
+              <li class="meta-item">
+                <span>Balandligi</span>
+                <strong id="projectHeight">280 metr</strong>
+              </li>
+              <li class="meta-item">
+                <span>Holati</span>
+                <strong id="projectStatus">Yakunlangan</strong>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn-cta">Loyiha bo'yicha maslahat</a>
+          </div>
+
+          <div class="project-image">
+            <img id="projectImage" src="assets/project-tower.jpg" alt="Nova Aurora Tower">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YUTUQLAR & METRIKALAR (NOVA HIGHLIGHTS) -->
+    <section id="highlights" class="highlights-section">
+      <div class="container">
+        <span class="section-label">// Natijalar</span>
+        <h2 class="section-heading">NOVA YUTUQLARI VA STANDARTLARI</h2>
+
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-icon-wrap">
+              <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+            <div class="highlight-metric" data-target="150" data-suffix="+">150+</div>
+            <h4 class="highlight-title">Global Obyektlar</h4>
+            <p class="highlight-desc">Dunyoning 18 ta megapolisida amalga oshirilgan barqaror me'moriy loyihalar.</p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon-wrap">
+              <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="highlight-metric" data-target="32" data-suffix=" ta">32 ta</div>
+            <h4 class="highlight-title">Xalqaro Mukofot</h4>
+            <p class="highlight-desc">Nufuzli arxitektura biennalelari va dizayn assotsiatsiyalari oliy mukofotlari.</p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon-wrap">
+              <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="highlight-metric" data-target="100" data-suffix="%">100%</div>
+            <h4 class="highlight-title">BREEAM & LEED</h4>
+            <p class="highlight-desc">Barcha loyihalarimiz xalqaro yashil energiya va ekologiya standartlariga mos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ERISHILGAN MUKOFOTLAR (AWARDS WE WON) -->
+    <section id="awards" class="awards-section">
+      <div class="container">
+        <span class="section-label">// E'tirof</span>
+        <h2 class="section-heading">BIZ QO'LGA KIRITGAN MUKOFOTLAR</h2>
+
+        <div class="awards-table">
+          <div class="award-row">
+            <div class="award-year">2026</div>
+            <div class="award-name">The Pritzker Architecture Prize</div>
+            <div class="award-project">Nova Aurora Tower (Yilning eng yaxshi osmono'par binosi)</div>
+            <div class="award-badge" style="color: #0284c7;">Oliy Laureat</div>
+          </div>
+
+          <div class="award-row">
+            <div class="award-year">2025</div>
+            <div class="award-name">Robin Boyd Award for Architecture</div>
+            <div class="award-project">Sfera Muzeyi (Innowatsion barqaror fazoviy yechim)</div>
+            <div class="award-badge" style="color: #161616;">G'olib</div>
+          </div>
+
+          <div class="award-row">
+            <div class="award-year">2024</div>
+            <div class="award-name">AIA National Architecture Honor</div>
+            <div class="award-project">San-Fransisko Botanika-Me'moriy Shtab-Kvartirasi</div>
+            <div class="award-badge" style="color: var(--color-primary);">Birinchi O'rin</div>
+          </div>
+
+          <div class="award-row">
+            <div class="award-year">2023</div>
+            <div class="award-name">Mies Crown Hall Americas Prize (MCHAP)</div>
+            <div class="award-project">Apex Horizon Urban Park & Business Campus</div>
+            <div class="award-badge" style="color: #10b981;">Maxsus E'tirof</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFISIMIZ (OUR SAN FRANCISCO OFFICE) -->
+    <section id="office" class="office-section">
+      <div class="container">
+        <div class="section-top">
+          <div>
+            <span class="section-label">// Ijodiy Makon</span>
+            <h2 class="section-heading">BIZNING SAN-FRANSIZKO OFISIMIZ</h2>
+          </div>
+          <div class="slider-controls">
+            <button id="officePrevBtn" class="slider-arrow" aria-label="Oldingi rasm">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button id="officeNextBtn" class="slider-arrow" aria-label="Keyingi rasm">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="office-banner">
+          <img id="officeImg" src="assets/office-interior.jpg" alt="NOVA Architects San-Fransisko Ofis Interyeri">
+          <div class="office-card-overlay">
+            <h4>San-Fransisko Bosh Markazi</h4>
+            <p>540 Howard Street, San Francisco, CA. 1,400 m² maydondagi ochiq me'moriy ustaxona va materiallar laboratoriyasi.</p>
+            <a href="#contact" class="btn-cta" style="padding: 8px 20px; font-size: 0.8rem;">Ofisga tashrif buyuring</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALOQA VA LOYIHA BOSHLASH (LET'S CREATE SOMETHING TOGETHER) -->
+    <section id="contact" class="cta-section">
+      <div class="container">
+        <div class="cta-grid">
+          <div class="cta-emblem-wrap">
+            <div class="emblem-circle">
+              <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <h3 style="font-family: var(--font-heading); font-size: 2.2rem; text-transform: uppercase; margin-bottom: 12px;">BIRGALIKDA YARATAMIZ</h3>
+            <p style="color: var(--color-text-muted); max-width: 380px;">
+              Sizning orzuingizdagi bino, shahar majmuasi yoki interyerni birgalikda reallikka aylantiramiz.
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <form id="novaContactForm" class="contact-form">
+              <div class="form-group">
+                <label for="cName">Ismingiz va Familiyangiz</label>
+                <input type="text" id="cName" name="name" placeholder="Masalan: Sardor Aliyev" required>
+              </div>
+
+              <div class="form-group">
+                <label for="cEmail">Elektron Pochta</label>
+                <input type="email" id="cEmail" name="email" placeholder="example@domain.uz" required>
+              </div>
+
+              <div class="form-group">
+                <label for="cType">Loyiha Yo'nalishi</label>
+                <select id="cType" name="type">
+                  <option value="residential">Turar-joy va Xususiy Villa</option>
+                  <option value="commercial">Biznes Markaz & Osmono'par bino</option>
+                  <option value="public">Madaniy yoki Jamoat Fazosi</option>
+                  <option value="interior">Eksklyuziv Interyer Arxitekturasi</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="cMessage">Loyiha Tafsilotlari</label>
+                <textarea id="cMessage" name="message" rows="4" placeholder="Maydoni, kutilayotgan lokatsiyasi va rejalari haqida qisqacha..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-cta" style="width: 100%; justify-content: center;">So'rovni Yuborish</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SAYT FUTERI (FOOTER) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom: 20px;">
+            <div class="logo-icon">N</div>
+            <span>NOVA ARCHITECTS</span>
+          </div>
+          <p>
+            Dunyo miqyosidagi mukofotlarga sazovor bo'lgan arxitektura, shaharsozlik va taktil interyer dizayn studiyasi.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Ofislarimiz</h5>
+          <ul class="footer-links">
+            <li><a href="#office">San-Fransisko (Bosh ofis)</a></li>
+            <li><a href="#office">Tokio, Minato-ku</a></li>
+            <li><a href="#office">London, Shoreditch</a></li>
+            <li><a href="#office">Toshkent, Shahrisabz ko'chasi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigatsiya</h5>
+          <ul class="footer-links">
+            <li><a href="#hero">Bosh sahifa</a></li>
+            <li><a href="#philosophy">Falsafa</a></li>
+            <li><a href="#projects">Loyihalar</a></li>
+            <li><a href="#awards">Mukofotlar</a></li>
+            <li><a href="#contact">Aloqa</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Ijtimoiy Tarmoqlar</h5>
+          <ul class="footer-links">
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://behance.net" target="_blank" rel="noopener">Behance</a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter / X</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 NOVA ARCHITECTS. Barcha huquqlar himoyalangan. 34-Amaliy Ish.</div>
+        <div>Figma Dizayni: <a href="https://www.figma.com/file/L2f6Ex8oLNYwqS5R7IY9C2/Nova?node-id=0:1" target="_blank" rel="noopener" style="color: var(--color-primary); text-decoration: underline;">Nova (node-id: 0:1)</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
