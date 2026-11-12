@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aloqa & Konsultatsiya — NOVA ARCHITECTS</title>
+  <meta name="description" content="NOVA Architects arxitektura studiyasi bilan bog'lanish va yangi loyihani rejalashtirish.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="figma_preview.png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="NOVA Architects">
+        <div class="logo-icon">N</div>
+        <span>NOVA</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Asosiy menyu">
+        <a href="index.html" class="nav-link">Bosh sahifa</a>
+        <a href="about.html" class="nav-link">Studiya</a>
+        <a href="projects.html" class="nav-link">Loyihalar</a>
+        <a href="contact.html" class="nav-link active">Aloqa</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle" aria-label="Rejimni o'zgartirish">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 64px; padding-bottom: 96px;">
+    <div style="border-bottom: 1px solid var(--color-border); padding-bottom: 32px; margin-bottom: 48px;">
+      <span class="section-label">// Yangi Hamkorlik</span>
+      <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4.5rem);">Biz Bilan Bog'laning</h1>
+      <p style="color: var(--color-text-muted); max-width: 650px; margin-top: 16px; font-size: 1.15rem;">
+        San-Fransisko, Tokio, London yoki Toshkentdagi arxitektorlarimiz bilan loyihangizni muhokama qiling.
+      </p>
+    </div>
+
+    <div class="cta-grid">
+      <div>
+        <h3 style="font-family: var(--font-heading); font-size: 1.8rem; text-transform: uppercase; margin-bottom: 24px;">Xalqaro Shtab-Kvartiralar</h3>
+        
+        <div style="display: flex; flex-direction: column; gap: 24px; margin-bottom: 32px;">
+          <div>
+            <strong style="display: block; font-size: 1.1rem; color: var(--color-primary);">San-Fransisko (Bosh Ofis)</strong>
+            <p style="color: var(--color-text-muted);">540 Howard Street, San Francisco, CA 94105, USA<br>Tel: +1 (415) 890-4321</p>
+          </div>
+          <div>
+            <strong style="display: block; font-size: 1.1rem; color: var(--color-primary);">Tokio Ofisi</strong>
+            <p style="color: var(--color-text-muted);">Roppongi Hills Mori Tower 34F, Minato-ku, Tokyo, Japan<br>Tel: +81 3 5555 0192</p>
+          </div>
+          <div>
+            <strong style="display: block; font-size: 1.1rem; color: var(--color-primary);">London Ustaxonasi</strong>
+            <p style="color: var(--color-text-muted);">24 Shoreditch High St, London E1 6PG, UK<br>Tel: +44 20 7946 0831</p>
+          </div>
+          <div>
+            <strong style="display: block; font-size: 1.1rem; color: var(--color-primary);">Toshkent Vakolatxonasi</strong>
+            <p style="color: var(--color-text-muted);">Shahrisabz ko'chasi, 16-uy, Toshkent, O'zbekiston<br>Tel: +998 (71) 200-44-00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; text-transform: uppercase; margin-bottom: 20px;">Loyiha So'rovi</h3>
+        <form id="novaContactForm" class="contact-form">
+          <div class="form-group">
+            <label for="cName">Ismingiz va Familiyangiz</label>
+            <input type="text" id="cName" name="name" placeholder="Masalan: Jamshid Ismoilov" required>
+          </div>
+
+          <div class="form-group">
+            <label for="cEmail">Elektron Pochta</label>
+            <input type="email" id="cEmail" name="email" placeholder="jamshid@domain.uz" required>
+          </div>
+
+          <div class="form-group">
+            <label for="cType">Loyiha Yo'nalishi</label>
+            <select id="cType" name="type">
+              <option value="residential">Turar-joy va Xususiy Villa</option>
+              <option value="commercial">Biznes Markaz & Osmono'par bino</option>
+              <option value="public">Madaniy yoki Jamoat Fazosi</option>
+              <option value="interior">Eksklyuziv Interyer Arxitekturasi</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cMessage">Loyiha Tafsilotlari</label>
+            <textarea id="cMessage" name="message" rows="4" placeholder="Maydoni, kutilayotgan lokatsiyasi va rejalari..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-cta" style="width: 100%; justify-content: center;">So'rovni Yuborish</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 NOVA ARCHITECTS. Barcha huquqlar himoyalangan. 34-Amaliy Ish.</div>
+        <div><a href="index.html" style="color: var(--color-primary); text-decoration: underline;">Bosh sahifaga qaytish</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

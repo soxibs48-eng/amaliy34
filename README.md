@@ -79,3 +79,4 @@ Ushbu loyiha Figma platformasidagi **Nova (NOVA Architects)** dizaynining to'liq
   - `initCounters()` — Dinamik hisoblagichlar.
   - `initContactForm()` — Konsultatsiya formasi.
 - **Vercel**: `vercel.json` orqali toza URL manzillari bilan global joylashtirishga tayyor.
+

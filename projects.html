@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loyihalar Arxivi — NOVA ARCHITECTS</title>
+  <meta name="description" content="NOVA Architects studiyasining xalqaro miqyosdagi arxitektura, osmono'par binolar va madaniy inshootlar loyihalari arxivi.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="figma_preview.png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="NOVA Architects">
+        <div class="logo-icon">N</div>
+        <span>NOVA</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Asosiy menyu">
+        <a href="index.html" class="nav-link">Bosh sahifa</a>
+        <a href="about.html" class="nav-link">Studiya</a>
+        <a href="projects.html" class="nav-link active">Loyihalar</a>
+        <a href="contact.html" class="nav-link">Aloqa</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle" aria-label="Rejimni o'zgartirish">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="contact.html" class="btn-cta">Loyihani boshlash</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 64px; padding-bottom: 96px;">
+    <div style="margin-bottom: 48px; border-bottom: 1px solid var(--color-border); padding-bottom: 32px;">
+      <span class="section-label">// Arxiv & Portfolio</span>
+      <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4.5rem);">Barcha Me'moriy Loyihalar</h1>
+      <p style="color: var(--color-text-muted); max-width: 600px; margin-top: 16px;">
+        Osmono'par binolar, san'at muzeylari, bioklimatik oranjereyalar va xalqaro moliya shtab-kvartiralari to'plami.
+      </p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 36px;">
+      <!-- Project 1 -->
+      <div class="project-card-featured" style="grid-template-columns: 1fr; padding: 24px;">
+        <div class="project-image" style="height: 280px; margin-bottom: 20px;">
+          <img src="assets/project-tower.jpg" alt="Nova Aurora Tower">
+        </div>
+        <span class="project-tag">Tokio // Turar-joy minorasi</span>
+        <h3 class="project-title" style="font-size: 1.8rem;">Nova Aurora Tower</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+          Seysmik tebranishlarga bardoshli parametrik fasad, 64 qavat, 85,000 m² umumiy maydon.
+        </p>
+        <a href="contact.html" class="btn-cta" style="padding: 10px 20px; font-size: 0.8rem; align-self: flex-start;">Tafsilotlar</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card-featured" style="grid-template-columns: 1fr; padding: 24px;">
+        <div class="project-image" style="height: 280px; margin-bottom: 20px;">
+          <img src="assets/project-museum.jpg" alt="Sfera Muzeyi">
+        </div>
+        <span class="project-tag">San-Fransisko // Madaniy markaz</span>
+        <h3 class="project-title" style="font-size: 1.8rem;">Sfera Zamonaviy San'at Muzeyi</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+          Shaffof polimer gumbaz va monolit travertin toshlaridan yaratilgan fazoviy me'moriy ansambl.
+        </p>
+        <a href="contact.html" class="btn-cta" style="padding: 10px 20px; font-size: 0.8rem; align-self: flex-start;">Tafsilotlar</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card-featured" style="grid-template-columns: 1fr; padding: 24px;">
+        <div class="project-image" style="height: 280px; margin-bottom: 20px;">
+          <img src="assets/project-facade.jpg" alt="Apex Horizon">
+        </div>
+        <span class="project-tag">London // Moliya kampusi</span>
+        <h3 class="project-title" style="font-size: 1.8rem;">Apex Horizon Moliya Boshqarmasi</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+          Quyosh panellari bilan to'liq qoplangan, nol uglerodli aqlli bioklimatik biznes majmuasi.
+        </p>
+        <a href="contact.html" class="btn-cta" style="padding: 10px 20px; font-size: 0.8rem; align-self: flex-start;">Tafsilotlar</a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card-featured" style="grid-template-columns: 1fr; padding: 24px;">
+        <div class="project-image" style="height: 280px; margin-bottom: 20px;">
+          <img src="assets/greenhouse.jpg" alt="Oranjereya">
+        </div>
+        <span class="project-tag">Singapur // Botanika gumbazi</span>
+        <h3 class="project-title" style="font-size: 1.8rem;">Bio-Sfera Eko-Pavilyoni</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+          Noyob o'simlik turlarini saqlashga mo'ljallangan iqlim nazorati avtomatlashtirilgan gumbaz.
+        </p>
+        <a href="contact.html" class="btn-cta" style="padding: 10px 20px; font-size: 0.8rem; align-self: flex-start;">Tafsilotlar</a>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card-featured" style="grid-template-columns: 1fr; padding: 24px;">
+        <div class="project-image" style="height: 280px; margin-bottom: 20px;">
+          <img src="assets/hero-tower.jpg" alt="Monolit minorasi">
+        </div>
+        <span class="project-tag">Seul // Monumental bino</span>
+        <h3 class="project-title" style="font-size: 1.8rem;">Qizil Terrakota Markazi</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+          Pishirilgan gil panellar va shisha uyg'unligidagi 48 qavatli arxitektura mo'jizasi.
+        </p>
+        <a href="contact.html" class="btn-cta" style="padding: 10px 20px; font-size: 0.8rem; align-self: flex-start;">Tafsilotlar</a>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card-featured" style="grid-template-columns: 1fr; padding: 24px;">
+        <div class="project-image" style="height: 280px; margin-bottom: 20px;">
+          <img src="assets/office-interior.jpg" alt="Ofis majmuasi">
+        </div>
+        <span class="project-tag">San-Fransisko // Ochiq laboratoriya</span>
+        <h3 class="project-title" style="font-size: 1.8rem;">NOVA San-Fransisko Shtabi</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+          1,400 m² maydondagi ochiq me'moriy ustaxona va materiallar sinov laboratoriyasi.
+        </p>
+        <a href="contact.html" class="btn-cta" style="padding: 10px 20px; font-size: 0.8rem; align-self: flex-start;">Tafsilotlar</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 NOVA ARCHITECTS. Barcha huquqlar himoyalangan. 34-Amaliy Ish.</div>
+        <div><a href="index.html" style="color: var(--color-primary); text-decoration: underline;">Bosh sahifaga qaytish</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
